@@ -1,0 +1,274 @@
+
+a:link {
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	text-decoration:none;
+	
+}	
+
+a:active {
+	color:green;
+	text-decoration:none
+}
+
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+*{ margin-left:2px;
+   margin-right:1px;
+   padding:2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+}
+
+.containerN{
+	width:1200px;
+	height:1200px;
+	background:transparent;
+	border-radius:30px;
+	padding-top:10px;
+    position:absolute;
+	z-index:-1;
+}
+
+
+.swiper{
+  width: 1300px;
+  height: 600px;
+  border-radius:30px;
+  background-repeat: no-repeat;
+}
+
+.containerZ{border-radius:30px;
+			height:100px;
+			width:100px;
+			float:left;}
+			
+			
+img:hover{
+animation: fadeOut 250ms;
+-webkit-animation: fadeOut 250ms;
+-moz-animation: fadeOut 250ms;
+}
+@-webkit-keyframes fadeOut {
+100% {
+transform: ease;
+}
+}
+
+
+a:hover {background-color:#D4D4D4;
+         transition:300ms;
+		 border-radius:30px;			 
+}	
+
+
+
+
+#myInput {
+  background-image: url(search.png); /* Add a search icon to input */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 170px; /* Full-width */
+  font-size: 18px; /* Increase font-size */
+  padding:1px; /* Add some padding */
+  border-radius:30px;
+  font-family:Tw Cen Mt;
+  color: Green;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  margin-top: -1px; /* Prevent double borders */
+  padding: 3px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px;
+  font-weight:bold;/* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  border-radius:30px;
+  font-family:Tw Cen Mt;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color:grey;
+  border-radius:30px;
+
+}
+
+button{  border-radius:60px;}
+
+
+
+.footer {		
+		display:inline-block;
+		font-family:Tw Cen Mt;
+		border-radius:30px;
+		font-size: 18px;
+		font-weight:bold;
+		list-style-type:none;
+		background-image:url(images/sleep.jpg);
+}
+
+
+
+footer ul {list-style-type:none;
+		   display:inline-block;}
+		   
+.myVideo {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index:-1;
+  padding-right:0px;
+
+}  
+  
+#fname{display:block;
+	   border-radius:30px;
+       font-family:Tw Cen Mt;
+	   }
+	   
+#lname{display:block;
+	   border-radius:30px;
+	   margin-top:10px;
+	   font-family:Tw Cen Mt;
+	   border:bold 1px;
+	   border-color:black;
+	   }
+	   
+#kill{display:block;
+border-radius:30px;
+margin-top:10px;
+font-family:Tw Cen Mt}
+
+#jump{display:inline-block;
+border-radius:10px;
+padding-top:70px;
+float:left;
+margin-top:10px;
+font-family:Tw Cen Mt
+}
+
+
+#wb{display:block;
+float:bottom;
+margin-bottom:10px;
+font-family:Tw Cen Mt}
+
+*body{margin-left:1px;
+	  margin-right:2px;}
+	  
+	  
+	  
+	  
+
+#goat{text-shadow:
+      0 0 7px #d4af37,
+      0 0 10px #680094,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;}
+  
+  
+  
+  
+h1{background-color:black;
+	border-radius:15px;}
+	
+#vidd{padding-bottom:10px;
+	}
+	
+#stack{background-color:grey;
+border-radius:15px;}
+
+
+  
+#push9{background-color:black;
+	border-radius:15px;
+	color:purple;
+	font-weight:bold;}
+	
+	
+.mapouter{position:relative;text-align:right;width:100%;height:305px;}
+
+
+.gmap_canvas {overflow:hidden;
+background:none!important;width:100%;height:305px;}
+
+
+.gmap_iframe {height:305px!important;}
+
+.dropbtn {
+  background-color:white;
+  color:black;
+  padding-bottom:20px;
+  font-size: 16px;
+  border: none;
+  border-radius:30px;
+  font-weight:200px;
+  width:60px;
+  height:20px;
+  font-family:tw cen mt;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius:15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color:#D4D4D4;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:15px;
+  font-family:tw cen mt;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+  display: block;
+  border-radius:30px;
+  font-family:tw cen mt;
+
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  border-radius:30px;
+}
